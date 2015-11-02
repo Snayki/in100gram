@@ -1,0 +1,24 @@
+{
+  "generator-jhipster": {
+    "baseName": "in100gram",
+    "packageName": "com.in100gram",
+    "packageFolder": "com/in100gram",
+    "authenticationType": "session",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": "no",
+    "websocket": "no",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "useSass": true,
+    "buildTool": "maven",
+    "frontendBuilder": "grunt",
+    "enableTranslation": false,
+    "enableSocialSignIn": true,
+    "rememberMeKey": "d07d83726c91f00b320e65e5a1712b9d0f52923e",
+    "testFrameworks": [
+      "cucumber"
+    ]
+  }
+}
